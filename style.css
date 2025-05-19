@@ -1,0 +1,42 @@
+
+body {
+  background: #0b0b0b;
+  color: #f44336;
+  font-family: 'UnifrakturCook', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  padding: 30px;
+  background-color: rgba(20, 0, 0, 0.85);
+  border: 2px solid #880808;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ff0000aa;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff3c3c;
+  text-shadow: 2px 2px 5px #aa0000;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: #f5dcdc;
+  text-align: left;
+  white-space: pre-line;
+  background-color: #1a0000;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+  overflow-y: auto;
+  max-height: 400px;
+}
